@@ -7,7 +7,7 @@ def exchange_money(budget, exchange_rate):
     """
 
     # pass
-    return (budget / exchange_rate)
+    return budget / exchange_rate
 
 # print(exchange_money(127.3, 1.2))
 
@@ -20,7 +20,7 @@ def get_change(budget, exchanging_value):
     """
 
     # pass
-    return (budget - exchanging_value)
+    return budget - exchanging_value
 
 def get_value_of_bills(denomination, number_of_bills):
     """

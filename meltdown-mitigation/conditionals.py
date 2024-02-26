@@ -68,8 +68,8 @@ def fail_safe(temperature, neutrons_produced_per_second, threshold):
     percentege = (product / threshold) * 100
 
     if percentege < 90:
-        print("LOW")
+        return "LOW"
     elif 90 <= percentege <= 110:
-        print("NORMAL")
+        return "NORMAL"
     else:
-        print("DANGER")
+        return "DANGER"
